@@ -1,6 +1,12 @@
 <?php
 //create a simple telegram bot with php by AFTUS from atarud.ir
 //In the first step, you need a token that you can get by @BotFather telegram robot.
+//please note that you must upload php robot file to a server with a SSL certificate to get started.
+//upload php bot file in your server.
+//you need to set webhook, for set webhook :
+//enter below url in your browser :
+//https://api.telegram.org/bot<EnterYourTokenHere>/setWebhook?url=<EnterYourBotFileUrlHere>
+//for example : https://api.telegram.org/botXXXX/setWebhook?url=https://www.example.com/mybot.php
 //Ok, let's start now
 //define the token variable to get the token from botfather
 $token ='XXXX'; // Enter your token inside '' , for example XXXX is your token
@@ -47,10 +53,5 @@ elseif ($message==$text_one) {
 elseif ($message==$text_three) {
 	$rep=json_decode(file_get_contents("https://api.telegram.org/bot".$token."/SendMessage?chat_id=".$chatid."&reply_markup=".$reply_markup_two."&text=".urlencode("Amazon Shop")));
 }
-//please note that you must upload php robot file to a server with a SSL certificate to get started.
-//and also for set webhook.
-//enter below url in your browser.
-//https://api.telegram.org/bot<EnterYourTokenHere>/setWebhook?url=<EnterYourBotFileUrlHere>
-//for example : https://api.telegram.org/botXXXX/setWebhook?url=https://www.example.com/mybot.php
 //in the same way, you can easily access the rest of the Telegram robot methods at https://core.telegram.org/bots/api#available-methods.
 //You can call and use any method, such as methods for sending photos, sending videos, sending documents, erasing messages and other methods. Be sure to any method, you must apply the parameters that are required
