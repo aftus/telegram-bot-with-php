@@ -1,15 +1,24 @@
-En lang
-telegram-bot-with-php
+# Telegram bot with php
+## Getting Started
+token from @botfather in telegram
+
+set webhook
+
+create a new php file
+
+## Project information
+
 simple telegram bot with php
+
 has inline and menu keyboard
-made by AFTUS from www.atarud.ir
-please note that you must upload php robot file to a server with a SSL certificate to get started.
-and also for set webhook.
-enter below url in your browser.
-https://api.telegram.org/bot<EnterYourTokenHere>/setWebhook?url=<EnterYourBotFileUrlHere>
-for example : https://api.telegram.org/botXXXX/setWebhook?url=https://www.example.com/mybot.php
-FA lang
+
+### made by AFTUS from 
+
+### زبان فارسی
 ساخت ربات تلگرام ساده با زبان php
+
 دارای کیبورد داخلی (شیشه ای ) و هم چنین منو کیبورد
-ساخته شده توسط محمد رضا از سایت عطارد به نشانی www.atarud.ir
+
+ساخته شده توسط محمد رضا از سایت عطارد
+
 دقت داشته باشید که برای آغاز به کار ربات باید فایل پی اچ پی را بر روی هاست دارای گواهی اس اس ال آپلود کنید
