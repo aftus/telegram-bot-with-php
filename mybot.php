@@ -48,4 +48,4 @@ elseif ($message==$text_three) {
 	$rep=json_decode(file_get_contents("https://api.telegram.org/bot".$token."/SendMessage?chat_id=".$chatid."&reply_markup=".$reply_markup_two."&text=".urlencode("Amazon Shop")));
 }
 //in the same way, you can easily access the rest of the Telegram robot methods at https://core.telegram.org/bots/api#available-methods.
-You can call and use any method, such as methods for sending photos, sending videos, sending documents, erasing messages and other methods. Be sure to any method, you must apply the parameters that are required
+//You can call and use any method, such as methods for sending photos, sending videos, sending documents, erasing messages and other methods. Be sure to any method, you must apply the parameters that are required
