@@ -8,11 +8,11 @@ create a new php file
 
 ## Project information
 
-simple telegram bot with php
+create a simple telegram bot with php
 
 has inline and menu keyboard
 
-### made by AFTUS from 
+### made by AFTUS from atarud.ir
 
 ### توضیحات به فارسی
 ساخت ربات تلگرام ساده با زبان php
