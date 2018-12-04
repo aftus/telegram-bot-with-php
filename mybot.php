@@ -11,8 +11,9 @@
 //define the token variable to get the token from botfather
 $token ='XXXX'; // Enter your token inside '' , for example XXXX is your token
 //define the input variables from the telegram
-$json = file_get_contents('php://input');
-$update = json_decode(file_get_contents('php://input'));
+$json = file_get_contents('php://input'); // for get contents by json
+$update = json_decode(file_get_contents('php://input')); // for decode json
+//also we need this variables
 $message=$update->message->text;
 $message_id=$update->message->message_id;
 $chatid=$update->message->chat->id;
