@@ -1,9 +1,9 @@
 # Telegram bot with php
 ## Getting Started
 
-token from @botfather in telegram
+## create a simple telegram bot with php by AFTUS from atarud.ir
 
-create a simple telegram bot with php by AFTUS from atarud.ir
+Get the token from @botfather in telegram
 
 In the first step, you need a token that you can get by @BotFather telegram robot.
 
@@ -15,13 +15,15 @@ you need to set webhook, for set webhook :
 
 enter below url in your browser :
 
-api.telegram.org/bot<EnterYourTokenHere>/setWebhook?url=<EnterYourBotFileUrlHere>
+https://api.telegram.org/bot"EnterYourTokenHere"/setWebhook?url="EnterYourBotFileUrlHere"
   
 for example : https://api.telegram.org/botXXXX/setWebhook?url=https://www.example.com/mybot.php
 
 set webhook
 
-create a new php file
+create a new file ase php format
+
+now go into mybot.php and act according to the teachings
 
 ## Project information
 
@@ -32,6 +34,7 @@ has inline and menu keyboard
 ### made by AFTUS from atarud.ir
 
 ### توضیحات به فارسی
+
 ساخت ربات تلگرام ساده با زبان php
 
 دارای کیبورد داخلی (شیشه ای ) و هم چنین منو کیبورد
