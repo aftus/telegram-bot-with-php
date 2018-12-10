@@ -1,6 +1,23 @@
 # Telegram bot with php
 ## Getting Started
+
 token from @botfather in telegram
+
+create a simple telegram bot with php by AFTUS from atarud.ir
+
+In the first step, you need a token that you can get by @BotFather telegram robot.
+
+please note that you must upload php robot file to a server with a SSL certificate to get started.
+
+upload php bot file in your server.
+
+you need to set webhook, for set webhook :
+
+enter below url in your browser :
+
+https://api.telegram.org/bot<EnterYourTokenHere>/setWebhook?url=<EnterYourBotFileUrlHere>
+  
+for example : https://api.telegram.org/botXXXX/setWebhook?url=https://www.example.com/mybot.php
 
 set webhook
 
