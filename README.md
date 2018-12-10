@@ -15,7 +15,7 @@ you need to set webhook, for set webhook :
 
 enter below url in your browser :
 
-https://api.telegram.org/bot<EnterYourTokenHere>/setWebhook?url=<EnterYourBotFileUrlHere>
+api.telegram.org/bot<EnterYourTokenHere>/setWebhook?url=<EnterYourBotFileUrlHere>
   
 for example : https://api.telegram.org/botXXXX/setWebhook?url=https://www.example.com/mybot.php
 
